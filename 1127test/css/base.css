@@ -1,0 +1,51 @@
+html,body,p,a,img,div,form,i,em,ul,dl,dt,dd,li,h1,h2,h3,h4,h5,h6,input{
+    margin: 0;
+    padding: 0;
+    font-family: PingFangSC-Semibold, "微软雅黑";
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(133, 172, 172);
+}
+.distansBot{
+    margin-bottom: 300px;
+}
+a:hover{
+    color: aliceblue;
+}
+i,
+em{
+    font-style: normal;
+}
+ul,li{
+list-style: none;
+}
+input{
+    outline: none;
+    border: none;
+    border: 1px solid red;
+}
+img{
+    border: none;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.marginBot{
+    margin-bottom: 100px;
+}
